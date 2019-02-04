@@ -1,0 +1,82 @@
+
+
+
+body {
+
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  background-color: brown;
+}
+
+.topnav {
+
+  background-color: grey;
+  overflow: hidden;
+  
+}
+
+.topnav a {
+
+  text-align: center;
+  padding: 10px 12px;
+  font-size: 18px;
+    float: left;
+    text-decoration: none;
+  color: black;
+
+}
+
+.topnav a:hover {
+
+  background-color: purple;
+  color: white;
+}
+
+
+
+
+
+
+
+footer {
+  text-align: center;
+  overflow: hidden;
+  background-color: brown;
+}
+
+footer a, p {
+  text-align: center;
+  align-self: center
+  color: white;
+  padding: 16px 18px;
+  text-decoration: initial;
+  font-size: 18px;
+}
+
+.contento {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  margin: 10px 90px 10px 90px;
+  text-align: left;
+}
+.content {
+  background-color: white;
+  padding: 40px;
+  margin: 0px 100px 0px 100px;
+  text-align: left;
+}
+
+h1 {
+
+  text-align: center;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+
+
+
+}
