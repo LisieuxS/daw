@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Laboratorio 5 | Ejercicios</title>
+  </head>
+  <body><center>
+   <a href="password.html">Validación </a>|
+    <a href="tienda.html">Tienda </a>|
+    <a href="historial.html">Historial</a>
+
+   <br> <center><h1>Compra y selección de productos</h1></center>
+   <table cellpadding="4"  align="center" width="35%" border="1">
+        <thead>
+            <tr>
+                <th><b>Producto</b></th>
+                <th><b>Precio</b></th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>Pluma <input type="number" name="pluma" id="plu" value="1" min="0"><br></td>
+                    <td><a href="lab1\lab1.html"> $6 </a></td>
+                </tr>
+                <tr>
+                    <td>Lápiz <input type="number" name="lapiz" id="la" value="1" min="0"><br><br></td>
+                    <td><a href="lab2\lab2.html"> $5 </a></td>
+                </tr>
+                <tr>
+                    <td>Borrador <input type="number" name="borrador" id="bo" value="1" min="0"></td>
+                    <td><a href="lab3\lab3.html"> $10 </a></td>
+                </tr>
+                <tr>
+                    <td>Marcatexto <input type="number" name="marca" id="mar" value="1" min="0"></td>
+                    <td><a href="lab4\lab4.html"> $14 </a></td>
+                </tr>
+                <tr>
+                    <td>Libreta <input type="number" name="libreta" id="li" value="1" min="0"></td>
+                    <td><a href="lab5\lab5.html"> $30</a></td>
+                </tr>
+                <tr>
+                    <td>Sacapuntas <input type="number" name="saca" id="sa" value="1" min="0"></td>
+                    <td><a href="lab6\lab6.html"> $20</a></td>
+                </tr>
+                <tr>
+                    <td>Dulce <input type="number" name="dulce" id="du" value="1" min="0"><br></td>
+                    <td><a href="lab7\lab7.html"> $2</a></td>
+                </tr>
+                
+        </tbody>
+    </table>
+    %IVA <input type="number" name="iva" value="16" id="iva" min="0" max="100"><br>
+    Total: <p id="totalPay"> </p>
+
+    <button type="button" name="boton" onclick="pagar()">Pagar</button><br>
+
+    <script type = "text/javascript" src = "js.js"></script>
+    </center>
+  </body>
+</html>
+
+
+
