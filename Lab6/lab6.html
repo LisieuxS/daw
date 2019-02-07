@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="functions.js"> </script>
+	<title>Lab.9 Events in JavaScript</title>
+</head>
+<body>
+	<h2>Drag and drop:<h2>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="images/on.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+	<br/>
+	<h2> This is a botton that changes colour when mouse is over</h2>
+	<button type="button" name="color" id="color" value="color" onmouseover="changeColour('color','red')" onmouseout="changeColour('color', 'black')">Color</button>
+	<hr/>
+	<br/>
+	<h2>This button changes size when pressed</h2>
+	<button type="button" name="dimensions" id="dimensions" value="dimensions" onmousedown="changeDim('dimensions','120px','80px')" onmouseup="changeDim('dimensions', '100px', '30px')">Dimensions</button>
+	<hr/>
+	<div id="concealable">
+		<ol>
+ 			 <li> Diseño Interactivo </li>
+ 			 <li> Fundamentos de ingeniería en Software</li>
+ 			 <li> Física I </li>
+ 			 <li> Mate II</li>
+ 			 <li> Programación Orientada a Objetos </li>
+ 			 <li> Ética </li>
+		 </ol>
+	</div>
+	<button type="button" name="hide" id="hide" value="visibility"  onclick="changeVisibility ('concealable', 'hidden')">Hide</button>
+	<button type="button" name="show" id="show" value="visibility"  onclick="changeVisibility ('concealable', 'visible')">Show</button>
+	<hr/>
+	<label id="tag" onmousemove="changeFont('tag','Tahoma','large')" onmouseout="changeFont('tag','Times','small')">
+    This text changes typeface</label>
+    <hr/>
+    <img src="images/on.jpg" id="image" onmousemove="changeImage('image','images/off.jpg')" onmouseout="changeImage ('image','images/on.jpg')"
+/>
+</body>
+</html>
