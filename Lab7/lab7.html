@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<title>Lab 7 | Bootstrap and Navigation Bar</title>
+</head>
+<body data-spy="scroll" data-target="#main-navbar" data-offset="70">
+	<header id="header-section" class="container-fluid">Diversity in Sports</header>
+	<nav id="main-navbar" class="navbar navbar-dark bg-primary">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<ul class="nav-pills">
+			<li class="nav-item">
+				<a class="nav-link" href="#section1">One</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#section2">Two</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Three Dropdown 2</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#section3">one</a>
+					<a class="dropdown-item" href="#section41">two</a>
+					<div role="separator" class="dropdowndivider" ></div>
+					<a class="dropdown-item" href="#section42">three</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#mam">Bootstrap</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="section1" class="container-fluid">
+		<h1>Paralympics</h1>
+		<table>
+					<tr>
+						<td><img src="images/para.gif" width="600"> </td>
+						<td>The 2018 Winter Paralympics or the PyeongChang 2018 Paralympic Winter Games, were an international multi-sport event for athletes with disabilities governed by the International Paralympic Committee (IPC), that was held in Pyeongchang County, Gangwon Province, South Korea, from 9 to 18 March 2018.
+
+Athletes representing 49 National Paralympic Committees are participating in these Games, which mark the first time that South Korea has hosted the Winter Paralympics. It is the second Paralympics held in the country, after the 1988 Summer Paralympics in Seoul.
+
+The United States topped the medal table with 36 total medals and 13 gold medals. Host nation South Korea placed 16th with 3 total medals and won its first gold medal at a Winter Paralympics.</td>
+					</tr>
+			</table>
+	</div>
+	<div id="section2" class="container-fluid">
+		<h1>StarCraft II</h1>
+		<table>
+					<tr>
+						<td><img src="images/partida.jpg" width="480"></td>
+						<td> StarCraft II: Wings of Liberty is a military science fiction real-time strategy video game developed and published by Blizzard Entertainment. It was released worldwide in July 2010 for Microsoft Windows and Mac OS X.[6] A sequel to the 1998 video game StarCraft and its expansion set Brood War, the game is split into three installments: the base game with the subtitle Wings of Liberty, an expansion pack Heart of the Swarm, and a stand-alone expansion pack Legacy of the Void.</td>
+					</tr>
+			</table>
+	</div>
+	<div id="section3" class="container-fluid">
+		<h1>Voleyball</h1>
+			<table>
+					<tr>
+						<td><img src="images/ball.jpg" width="250"> </td>
+						<td>The complete rules are extensive, but simply, play proceeds as follows: a player on one of the teams begins a 'rally' by serving the ball (tossing or releasing it and then hitting it with a hand or arm), from behind the back boundary line of the court, over the net, and into the receiving team's court. The receiving team must not let the ball be grounded within their court. The team may touch the ball up to 3 times but individual players may not touch the ball twice consecutively. Typically, the first two touches are used to set up for an attack, an attempt to direct the ball back over the net in such a way that the serving team is unable to prevent it from being grounded in their court.</td>
+					</tr>
+			</table>
+	</div>
+	<div id="section41" class="container-fluid">
+		<h1>Athletism</h1>
+		<table>
+					<tr>
+						<td><img src="images/caballo.jpg" width="350"> </td>
+						<td>Organized athletics are traced back to the Ancient Olympic Games from 776 BC. The rules and format of the modern events in athletics were defined in Western Europe and North America in the 19th and early 20th century, and were then spread to other parts of the world. Most modern top level meetings are conducted by the International Association of Athletics Federations and its member federations.</td>
+					</tr>
+			</table>
+	</div>
+	<div id="section42" class="container-fluid">
+		<h1>More Pictures</h1>
+		<p><img src="images/logo.png" width="380">				<img src="images/starcraft.jpg" width="380">				<img src="images/ruedas.jpg" width="380">				<img src="images/atletismo.jpg" width="380">				<img src="images/competencia.jpg" width="380">				<img src="images/jump.jpg" width="380"></p>
+	</div>
+		<div id="mam" class="alert alert-primary" role="alert">
+ 				 Its role is alert. this is a type of component to implement Bootstrap. Alerts are available for any length of text, as well as an optional dismiss button.
+		</div>
+</body>
+</html>
