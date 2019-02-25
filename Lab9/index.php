@@ -4,34 +4,25 @@
 <div class="container">
     <p>
         <h4>Preguntas a responder</h4>
-        <dl>
-           <dt><h6><i>¿Qué hace la función phpinfo()?</i></h6></dt> 
-        </dl>
-        <dd >
+     
+           <h6><i>¿Qué hace la función phpinfo()?</i></h6>
+      
             
                <p align="right"><b> "PHPinfo is a useful function of PHP for returning compiled information about the PHP environment on your server. This includes information about PHP compilation options and extensions, the PHP version, server information and environment, the PHP environment, OS version information, paths, master and local values of configuration options, HTTP headers and the PHP license." [3]</b> </p>
            
-        </dd>
-        <dl>
-            <dt>
+       
                 <h6><i>¿Qué cambios tendrías que hacer en la configuración del servidor para que pudiera ser apto en un ambiente de producción?</i></h6>
-            </dt>
-            <dd>
+            
              
                   <p align="right"> <b> Cambiar php.ini-development por php.ini-production </b> </p>
                 
-            </dd>
-        </dl>
-        <dl>
-            <dt>
+           
                 <h6><i>¿Cómo es que si el código está en un archivo con código html que se despliega del lado del cliente, se ejecuta del lado del servidor? Explica.</i></h6>
-            </dt>
-            <dd>
+           
               
                    <p align="right"> <b> El cliente realiza una petición al servidor para el archivo HTML, lo que se presenta es sólamente una interpretación dada desde el navegador</b></p>
                
-            </dd>
-        </dl>
+          
     </p><hr>
 
     <div>
