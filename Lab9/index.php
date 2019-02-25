@@ -18,7 +18,7 @@
             </dt>
             <dd>
              
-                  <p align="right">  Cambiar php.ini-development por php.ini-production </p>
+                  <p align="right"> <b> Cambiar php.ini-development por php.ini-production </b> </p>
                 
             </dd>
         </dl>
@@ -28,7 +28,7 @@
             </dt>
             <dd>
               
-                   <p align="right"> El cliente realiza una petición al servidor para el archivo HTML, lo que se presenta es sólamente una interpretación dada desde el navegador</p>
+                   <p align="right"> <b> El cliente realiza una petición al servidor para el archivo HTML, lo que se presenta es sólamente una interpretación dada desde el navegador</b></p>
                
             </dd>
         </dl>
