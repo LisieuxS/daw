@@ -7,8 +7,8 @@
 	echo 'cuadrado y cubo de <b>n</b>: <br><br>';
 	echo "<table>";
 		echo "<tr>";
-				echo"<th><b>i=0/i++/i-->n   (i^2)</b></th>";
-				echo"<th><b>i=0/i++/i-->n   (i^3)</b></th>";
+				echo"<th><b>i=0/i-->n/i++   (i^2)</b></th>";
+				echo"<th><b>i=0/i-->n/i++   (i^3)</b></th>";
 		echo "</tr>";
 	for ($i=1; $i<=$str; $i++){ 
 		echo "<tr>";
