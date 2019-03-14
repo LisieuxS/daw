@@ -1,0 +1,20 @@
+ los valores no concuerdan con  los demás registros.
+
+Se tuvo que volver a crear la tabla de materiales para poder hacer la llave primaria
+
+Con sp_helpconstraint de determinada tabla, se muestran las llaves y el tipo de llaves
+que contiene al ejecutarse
+
+Se necesita de ALTER TABLE <TABLA> add constraint <nombredelakey> PRIMARY KEY
+ (<columnaausardeclave>) si se trata de llave única
+ 
+De llave compuesta se utiliza
+ALTER TABLE <TABLA> add constraint <nombredelakey> PRIMARY KEY CLUSTERED (<columna1,columna2...>)
+
+Los constrain no llegan  a ocurrir de no coincidir para evitar errores
+
+GETDATE() da la fecha actual en el momento en el que se ejecuta el script
+
+
+
+
