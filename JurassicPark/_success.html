@@ -1,0 +1,19 @@
+<div class="wrapper">
+
+    
+    <!--<a  class="button" href="reportes.php" role="button">Reportes</a>-->
+<button class="button" type="button" onclick="display()">Reportes</button>
+    <div id="ajaxResponse">
+        <div id="ajaxResponse"></div>
+             <?php getFails();?>
+             <br>
+            <?php getSuccess(); ?>
+             <br>
+            <?php getTable(); ?>
+             <br>
+ 
+        <?php  getSysFail(); ?>
+        <br>
+        </div>
+    
+</div>
