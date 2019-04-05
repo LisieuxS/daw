@@ -7,8 +7,8 @@
       
       <div class="row">
           <div class="input-field col s12">
-            <select name="lugar" id="lugar" >
-               <option value="" disabled selected>Selecciona una opción</option>
+            <select name="lugar" id="lugar"  >
+              <option value="" disabled selected>Selecciona una opción</option>
                               <option value="1">Centro turístico</option>
                               <option value="3">Laboratorios</option>
                               <option value="2">Restaurante</option>

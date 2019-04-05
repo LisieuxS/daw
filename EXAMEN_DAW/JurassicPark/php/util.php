@@ -25,6 +25,11 @@ function seleccionarIncidente()
     close($conn);
     return $result;
 }
+
+function seleccionarLugar(){
+    
+}
+
 function agregarIncidente($id_lu, $id_in)
 {
     $conn = connect();
@@ -56,6 +61,8 @@ function agregarIncidente($id_lu, $id_in)
     close($conn);
     return $result;
 }
+
+
   
   function recuperar_Lugar(){
        $vista=connect();

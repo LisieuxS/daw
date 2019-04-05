@@ -5,7 +5,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $.ajax({
         type: 'POST',
-        url:'controlo.php',
+        url:'../php/controlo.php',
         data:{'solo':'paraquenovayavacio'}
     })
     .done(function(locaciones){

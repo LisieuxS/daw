@@ -2,10 +2,10 @@
 
 require_once("util.php");
 $result = seleccionarIncidente();
-
+$respuesta = "";
 if (mysqli_num_rows($result)>0)
 {
-    echo "<table style = 'text-align:center;' class = 'stripped white-text'>
+    $respuesta .= "<table style = 'text-align:center;' class = 'stripped white-text'>
     <tr>
         <td style = 'text-align:center;background:#1a237e'>Fecha</td>
         <td style = 'text-align:center;background:#1a237e'>Incidente</td>
@@ -14,14 +14,14 @@ if (mysqli_num_rows($result)>0)
         ";
     while($row = mysqli_fetch_assoc($result))
     {
-        echo "
+        $respuesta .= "
         <tr>
         <td style = 'text-align:center;color:black'>".$row['fecha']."</td> 
         <td style = 'text-align:center;color:black'>".$row['nombreI']."</td>
         <td style = 'text-align:center;color:black'>".$row['nombrel']."</td> 
         </tr>";
     }
-    echo "</table>";
+    echo $respuesta."</table>";
 }
 echo "<a href='../index.php' class='btn indigo darken-4'>Regresar a Inicio</a>";
 
