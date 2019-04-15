@@ -1,0 +1,18 @@
+.content{
+ 
+  margin-left: 25%;
+}
+body{
+background: cornflowerblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.error {
+  color: #FF0000;
+}
