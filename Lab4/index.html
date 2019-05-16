@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Laboratorio 4</title>
+    <script src='scripts.js'></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <br/>
+      <h2>Fundamentos de JavaScript</h2>
+      <br/>
+    </header>
+
+    <div class="scripts">
+    <br/>
+      <ol id="sc">
+
+        <li>
+          Cuadrados y cubos
+           del numero escogido  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <br>
+           <button onclick="func1()">Iniciar</button><br/>
+          <div id="fun1">
+          </div>
+        </li>
+
+        <li>
+          Suma aleatoria &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br>
+          <button onclick="func2()">
+            Iniciar</button><br/>
+          <div id="fun2">
+          </div>
+        </li>
+
+        <li>
+          Cantidad de numeros negativos, ceros y positivos en un arreglo aleatorio
+          <br>
+          <button onclick="func3()">Iniciar</button>
+          <div id="fun3">
+          </div>
+        </li>
+
+        <li>
+          Promedios de los renglones de una matriz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br><button onclick="func4()">Iniciar</button>
+          <div id="fun4">
+          </div>
+          <br/>
+          <table id="resp4">
+            <tr>
+              <th>Renglon</th>
+              <th>Promedio</th>
+            </tr>
+          </table>
+        </li>
+
+        <li>
+          Inverso de un numero &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          <br>
+          <button onclick="func5()">Iniciar</button>
+          <table id="inver">
+            <tr>
+              <th>Input</th>
+              <th>Output</th>
+            </tr>
+
+          </table>
+        </li>
+
+        
+      </ol>
+      <br/>
+    </div>
+    <div class="preg">
+      <br/>
+      <h2>Preguntas</h2>
+      <ol>
+          <li>
+            Que diferencias y semejanzas hay entre Java y JavaScript?<br/>
+            <table>
+              <tr>
+                <h3>Semejanzas</h3>
+                <p>Son lenguajes Orientados a Objetos <a href="#ref"></a></p>
+                  <p>Pueden ser utilizados para la web</p>
+                    <p>Las sentencias se terminan con ; (punto y coma)</p>
+                      <p>Son multiplataforma</p>
+                <h3>Diferencias</h3>
+                <p>Java es un lenguaje de programacion y JavaScript es un lenguaje de scripting </a></p>
+               <p>Las aplicaciones de Java corren en una maquina virtual, las de JavaScript en un navegador</p>
+          <p>El codigo de Java debe ser compilado y el de JavaScript es un archivo de texto<a href="#ref"></a></p>
+             <p>La sintaxis de JavaScript es menos estricta que la de Java</p>
+         
+            
+          </li>
+          <li>
+            Que metodos tiene el objeto Date? </a>
+            <ul>
+              <li>getTime(), getDay(), getFullYear(), getSeconds()</li>
+            </ul>
+
+          </li>
+          <li>
+            Que metodos tienen los arreglos?  <a href="#ref"></a>
+            <ul>
+              <li>concat(), includes(), indexOf(), push(), pop()</li>
+            </ul>
+
+          </li>
+          <li>
+            Como se declara una variable con alcance local dentro de una función?<br/>
+            "var nombre_Variable" valida unicamente dentro de la funcion <a href="#ref"></a>
+
+
+          </li>
+          <li>
+            Que implicaciones tiene utilizar variables globales dentro de funciones?<br/>
+            Se puede sobreescribir, perdiendose el valor que tenia previamente contenido. <a href="#ref"></a>
+          </li>
+          <li>
+            Que metodo de String se puede utilizar para buscar patrones con expresiones regulares?¿Para qué podrías utilizar esto en una aplicación web?<br/>
+            El metodo <strong>match()</strong>. Como parametro se escribe la expresion a
+            buscar y regresa todas las ocurrencias dentro de un array. <a href="#ref"></a> Se puede usar por ejemplo
+            para checar si una tarjeta de credito es Visa o Master Card con unicamente ingresar los primeros 4 digitos.
+          </li>
+      </ol>
+      <br/>
+      <h3>Referencias</h3>
+      Oracle. "How is JavaScript different from Java?".<a href="https://www.java.com/en/download/faq/java_javascript.xml" target=_blank>https://www.java.com/en/download/faq/java_javascript.xml</a>. [Ene. 28, 2019].<br/>
+      
+   
+  
+  </body>
+</html>

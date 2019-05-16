@@ -1,0 +1,100 @@
+/*Stylesheet for lab 4*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e7d296;
+    margin: 0 auto;
+    max-width: 50em;
+  }
+  
+  #sc{
+    color: #fff;
+  }
+  
+  li{
+    margin-left: 8%;
+    margin-bottom: 4%;
+  }
+  
+  footer{
+    color: #fff;
+      text-align: left;
+    padding-left: 12%;
+    background-color: #66ffde;
+    padding-bottom: 2%;
+    font-family: verdana, sans-serif;
+    margin-bottom: 1%;
+  }
+  
+  header{
+    color: #fff;
+      text-align: center;
+      font-weight: bold;
+    background-color: #c266ff;
+  }
+  
+  div.scripts{
+    background-color: #ff66c4;
+    color: #fff;
+  }
+  
+  div.preg{
+    padding-top: 12%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: #ff5c33;
+    font-family: arial, sans-serif;
+    text-align: justify;
+  }
+  
+  #code{
+    color: rgb(107, 98, 98);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  
+  th{
+    text-align: center;
+    background-color: #669991;
+    color: rgb(211, 43, 43);
+  }
+  
+  td{
+    text-align: left;
+    /*margin:0;*/
+  }
+  
+  tr:nth-child(even) {background-color: #cc7373;color: #fff}
+  /*tr:nth-child(odd) {background-color: #cecedf;}*/
+  
+  table{
+    padding-left: 0px;
+    margin-left: 0px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  div.referencias{
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #c9ff66;
+    color: #000;
+  }
+  
+  div.fun1{
+    color: #000;
+  }
+  
+  button{
+    margin-left: 13%;
+  }
