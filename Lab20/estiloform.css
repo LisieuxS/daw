@@ -1,0 +1,20 @@
+h3, label, .form-control, .bt-enviar
+{
+ margin-left: 2%;
+}
+iframe
+{
+  float: left;
+}
+a
+{
+  color:gray;
+}
+p
+{
+  padding: 10px;
+}
+.req
+{
+ color:red; 
+}

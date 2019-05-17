@@ -1,0 +1,72 @@
+
+
+.title {
+    color: darkmagenta;
+    font-size: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.imagen-inicio {
+    margin-left: 4%;
+}
+
+
+.escrito {
+
+    /* color: sienna; */
+    font-size: 140%;
+    font-weight: 300;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.espacio {
+    height: 350px;
+}
+
+.historia-card {
+    opacity: .90;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    background-color: white;
+    
+}
+
+
+.postbody {
+    background-image: url(DSC00478.JPG );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+
+.contenido {
+    padding-bottom: 5%;
+    background-color: white;
+    opacity: .95;
+
+}
+
+
+.hold-icon {
+    font-size: 400%;
+}
+
+.down-icon {
+
+    font-size: 300%;
+}
+
+.map
+{
+    margin-right: 4%;
+    margin-top: 8%;
+}
+.block
+{
+    margin-bottom: 5%;
+}

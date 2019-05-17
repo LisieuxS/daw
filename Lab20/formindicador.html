@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="estiloform.css">
+<link rel="stylesheet" href="estilos.css">
+  <div class="container">
+          <br>
+        <h3>Nuevo indicador</h3>
+        <br>
+        <form action="base_indicador.php" method="POST">
+          <div class="form-group col-md-6">
+              <label for="concepto">Nombre<strong class ="req">*</strong></label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group col-md-6">
+              <label for="concepto">Descripción<strong class ="req">*</strong></label>
+              <input type="text" class="form-control" id="descripcion" name="descripcion" required>
+          </div>
+          <div class="form-group col-md-6">
+                <label for="exampleFormControlSelect2">Categoría<strong class ="req">*</strong></label>
+                <br>
+          </div>
+          <div class="form-group col-md-6">
+             <?php
+               require_once("DropDown.php");
+             ?>
+          </div>
+            <br><br>
+          <div class="bt-enviar">
+            <button type="submit" name = "Submit" class="btn btn-primary">Crear</button>
+          </div>
+          <br>
+        </form>
+  </div>
+
+
+    
+</body>
+</html>

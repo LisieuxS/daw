@@ -1,0 +1,1 @@
+Entregado por otro integrante del proyecto; laboratorio en equipo
